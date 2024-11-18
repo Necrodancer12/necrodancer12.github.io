@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="source/styles/mycss.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg" style="background: rgb(165, 78, 78);">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="source\files\image-removebg-preview.png" alt="..."></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://t.me/anna_g_rabota" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-telegram" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09" />
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://steamcommunity.com/id/solodaun_1_VS_9/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-steam"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M.329 10.333A8.01 8.01 0 0 0 7.99 16C12.414 16 16 12.418 16 8s-3.586-8-8.009-8A8.006 8.006 0 0 0 0 7.468l.003.006 4.304 1.769A2.2 2.2 0 0 1 5.62 8.88l1.96-2.844-.001-.04a3.046 3.046 0 0 1 3.042-3.043 3.046 3.046 0 0 1 3.042 3.043 3.047 3.047 0 0 1-3.111 3.044l-2.804 2a2.223 2.223 0 0 1-3.075 2.11 2.22 2.22 0 0 1-1.312-1.568L.33 10.333Z" />
+                  <path
+                    d="M4.868 12.683a1.715 1.715 0 0 0 1.318-3.165 1.7 1.7 0 0 0-1.263-.02l1.023.424a1.261 1.261 0 1 1-.97 2.33l-.99-.41a1.7 1.7 0 0 0 .882.84Zm3.726-6.687a2.03 2.03 0 0 0 2.027 2.029 2.03 2.03 0 0 0 2.027-2.029 2.03 2.03 0 0 0-2.027-2.027 2.03 2.03 0 0 0-2.027 2.027m2.03-1.527a1.524 1.524 0 1 1-.002 3.048 1.524 1.524 0 0 1 .002-3.048" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section>
+    <div class="container-fluid m-4">
+      <div class="row">
+        <div class="col-xxl-1 col-lg-1 col-md-1 col-sm-1">
+          <div>
+            <div class="filter-container">
+              <button class="filter_open" id="filterButton">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#444444"
+                  class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8m-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5" />
+                </svg>
+              </button>
+              <div class="filter-panel" id="filterPanel">
+                <p style="font-size: 25px; letter-spacing:5px; padding-left:30px;">Filter</p>
+                <p>Здесь могли бы быть фильтры, но я не сделала</p>
+              </div>
+            </div>
+            <script>
+              document.addEventListener('DOMContentLoaded', () => {
+                const filterButton = document.getElementById('filterButton');
+                const filterPanel = document.getElementById('filterPanel');
+                let isPanelOpen = false;
+                filterButton.addEventListener('click', () => {
+                  if (!isPanelOpen) {
+                    filterPanel.style.left = '0';
+                    filterButton.style.top = `${filterPanel.offsetHeight}px`;
+                    filterButton.style.left = '180px';
+                  } else {
+                    filterPanel.style.left = '-200px';
+                    filterButton.style.left = '1px';
+                  }
+                  filterButton.style.width = '30px';
+                  filterButton.style.top = '120px';
+                  filterButton.style.height = isPanelOpen ? '50px' : '50px';
+                  isPanelOpen = !isPanelOpen;
+                });
+              });
+            </script>
+          </div>
+        </div>
+        <div class="col-xxl-8 col-lg-8 col-md-9 col-sm-7">
+          <div class="row">
+            <div class="col-xxl-3 col-lg-4 col-md-6 mt-4">
+              <div class="card">
+                <a href="https://aliexpress.ru/wholesale?SearchText=CPU+cooler"><img src="source\images\CPU-Cooler.jpg"
+                    class="card-img-top" alt="CPU-Cooler"></a>
+                <div class="card-body">
+                  <h5 class="card-title"><a href="https://aliexpress.ru/wholesale?SearchText=CPU+cooler">CPU Cooler</a>
+                  </h5>
+                  <p class="card-text"><a href="https://aliexpress.ru/wholesale?SearchText=CPU+cooler">
+                      Some quick example text to build on the card title and make up the bulk of the
+                      card's
+                      content.
+                    </a></p>
+                  <a href="https://aliexpress.ru/wholesale?SearchText=CPU+cooler" class="btn btn-primary">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-lg-4 col-md-6 mt-4">
+              <div class="card">
+                <a href="https://aliexpress.ru/wholesale?SearchText=Graphics+Card"><img
+                    src="source\images\Graphics-Card.jpg" class="card-img-top" alt="Graphics-Card"></a>
+                <div class="card-body">
+                  <h5 class="card-title"><a href="https://aliexpress.ru/wholesale?SearchText=Graphics+Card">Graphics
+                      Card</a></h5>
+                  <p class="card-text"><a href="https://aliexpress.ru/wholesale?SearchText=Graphics+Card">
+                      Some quick example text to build on the card title and make up the bulk of the
+                      card's
+                      content.
+                    </a></p>
+                  <a href="https://aliexpress.ru/wholesale?SearchText=Graphics+Card" class="btn btn-primary">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-lg-4 col-md-6 mt-4">
+              <div class="card">
+                <a href="https://aliexpress.ru/wholesale?SearchText=Headphone"><img src="source\images\Headphone.png"
+                    class="card-img-top" alt="Headphone"></a>
+                <div class="card-body">
+                  <h5 class="card-title"><a href="https://aliexpress.ru/wholesale?SearchText=Headphone">Headphone</a>
+                  </h5>
+                  <p class="card-text"><a href="https://aliexpress.ru/wholesale?SearchText=Headphone">
+                      Some quick example text to build on the card title and make up the bulk of the
+                      card's
+                      content.
+                    </a></p>
+                  <a href="https://aliexpress.ru/wholesale?SearchText=Headphone" class="btn btn-primary">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-lg-4 col-md-6 mt-4">
+              <div class="card">
+                <a href="https://aliexpress.ru/wholesale?SearchText=Keyboards"><img src="source\images\Keyboards.png"
+                    class="card-img-top" alt="Keyboards"></a>
+                <div class="card-body">
+                  <h5 class="card-title"><a href="https://aliexpress.ru/wholesale?SearchText=Keyboards">Keyboards</a>
+                  </h5>
+                  <p class="card-text"><a href="https://aliexpress.ru/wholesale?SearchText=Keyboards">
+                      Some quick example text to build on the card title and make up the bulk of the
+                      card's
+                      content.
+                    </a></p>
+                  <a href="https://aliexpress.ru/wholesale?SearchText=Keyboards" class="btn btn-primary">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-lg-4 col-md-6 mt-4">
+              <div class="card">
+                <a href="ttps://aliexpress.ru/wholesale?SearchText=Cases"><img src="source\images\Cases.jpg"
+                    class="card-img-top" alt="Cases"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Cases</h5>
+                  <p class="card-text"><a href="ttps://aliexpress.ru/wholesale?SearchText=Cases">Some quick example text
+                      to build on the card title and make up the bulk of the
+                      card's
+                      content.</a></p>
+                  <a href="https://aliexpress.ru/wholesale?SearchText=Cases" class="btn btn-primary">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-lg-4 col-md-6 mt-4">
+              <div class="card">
+                <a href="https://aliexpress.ru/wholesale?SearchText=Case+Fans"><img src="source\images\Case-Fans.jpg"
+                    class="card-img-top" alt="Case-Fans"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Case Fans</h5>
+                  <a href="https://aliexpress.ru/wholesale?SearchText=Case+Fans">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's
+                      content.</p>
+                  </a>
+                  <a href="https://aliexpress.ru/wholesale?SearchText=Case+Fans" class="btn btn-primary">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-lg-4 col-md-6 mt-4">
+              <div class="card">
+                <a href="https://aliexpress.ru/wholesale?SearchText=Mause"><img src="source\images\Mause.png"
+                    class="card-img-top" alt="Mause"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Mause</h5>
+                  <a href="https://aliexpress.ru/wholesale?SearchText=Mause">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's
+                      content.</p>
+                  </a>
+                  <a href="https://aliexpress.ru/wholesale?SearchText=Mause" class="btn btn-primary">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-lg-4 col-md-6 mt-4">
+              <div class="card">
+                <a href="https://aliexpress.ru/wholesale?SearchText=Steering+wheels+for+gaming"><img
+                    src="source\images\Steering-Wheels-for-gaming.png" class="card-img-top"
+                    alt="teering-Wheels-for-Gaming"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Steering wheels for gaming</h5>
+                  <a href="https://aliexpress.ru/wholesale?SearchText=Steering+wheels+for+gaming">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                      the
+                      card's
+                      content.</p>
+                  </a>
+                  <a href="https://aliexpress.ru/wholesale?SearchText=Steering+wheels+for+gaming"
+                    class="btn btn-primary">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-lg-4 col-md-6 mt-4">
+              <div class="card">
+                <a href="https://aliexpress.ru/wholesale?SearchText=Gamestoel"><img src="source\images\Gamestoel.png"
+                    class="card-img-top" alt="Gamestoel"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Gamestoel</h5>
+                  <a href="https://aliexpress.ru/wholesale?SearchText=Gamestoel">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's
+                      content.</p>
+                  </a>
+                  <a href="https://aliexpress.ru/wholesale?SearchText=Gamestoel" class="btn btn-primary">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-lg-4 col-md-6 mt-4">
+              <div class="card">
+                <a href="https://aliexpress.ru/wholesale?SearchText=Computer+glasses"> <img
+                    src="source\images\Computer-glasses.png" class="card-img-top" alt="Computer-glasses"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Computer glasses</h5>
+                  <a href="https://aliexpress.ru/wholesale?SearchText=Computer+glasses">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's
+                      content.</p>
+                  </a>
+                  <a href="https://aliexpress.ru/wholesale?SearchText=Computer+glasses" class="btn btn-primary">More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-lg-3 col-md-11 col-sm-4">
+          <div class="row px-5">
+            <div class="col-lg-12 sidebar my-4">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi doloremque nisi exercitationem eius
+                temporibus ut, quasi laudantium eveniet quam. Autem dolore, libero saepe quos alias sit animi architecto
+                totam quis!<a href="#">Learn more>>></a></p>
+            </div>
+            <div class="col-lg-12 sidebar my-4">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem cupiditate pariatur facilis enim commodi
+                quos iste, asperiores, ducimus laboriosam consectetur illo ea perferendis tempora quisquam odio corrupti
+                quasi soluta deleniti sed ratione veritatis libero delectus. Sequi neque quae quisquam sunt rerum modi,
+                eos nobis natus, molestias ex quidem similique incidunt.<a href="#">Learn more>>></a></p>
+            </div>
+            <div class="col-lg-12 sidebar my-4">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, velit commodi? Est velit asperiores
+                aliquid ullam eos quis deserunt qui?<a href="#">Learn more>>></a></p>
+            </div>
+            <div class="col-lg-12 sidebar my-4">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt inventore explicabo rerum laboriosam
+                laudantium officia! Soluta accusamus laudantium vel veritatis quis provident magni illo qui, dolorum
+                incidunt aliquid eaque veniam.<a href="#">Learn more>>></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="mt-4">
+    <div class="countainer-fluid">
+      <div class="row">
+        <div class="col-xxl-4 col-lg-4 col-md-12 footer-text text-center">
+          <p>All Rights Reserved 2024</p>
+        </div>
+        <div class="col-xxl-4 col-lg-4 col-md-12 footer-text text-center">
+          <p>Contacts<br>Job<br>Our Team</p>
+        </div>
+        <div class="col-xxl-4 col-lg-4 col-md-12 media-links">
+          <img style="width: 50px; margin-inline: 1em" src="source\files\Telegram.png" alt="Telegram">
+          <img style="width: 70px; margin-inline: 1em" src="source\files\YouTube.png" alt="YouTube">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

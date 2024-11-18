@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, serif;
+    background: linear-gradient(90deg, #ececec 0%, rgb(253, 220, 186) 95%);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.nav-item {
+    padding-left: 5px;
+}
+
+.nav-link {
+    letter-spacing: 3px;
+    color: rgb(181, 207, 209);
+    transition: all 1s ease;
+    border-radius: 0px;
+    border-color: #acacac;
+}
+
+.nav-link:hover {
+    border: solid;
+    border-radius: 20px;
+    color: #565656;
+    background-color: rgba(225, 189, 149, 0.323);
+    border: 1px;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(136, 150, 150);
+    border: none;
+    background-color: rgba(245, 222, 179, 0);
+    cursor: default;
+}
+
+.navbar-brand img {
+    width: 70px;
+}
+
+.navbar-toggler {
+    background-color: rgb(213, 195, 164);
+}
+
+.filter_open {
+    border-radius: 50px;
+    padding: 1px;
+    border-width: 0.1vw;
+    background-color: rgb(255, 184, 118);
+    border-style: none;
+    position: fixed;
+    transform: translateY(-50%);
+    transition: left 0.3s ease-in-out;
+    z-index: 15;
+    left: 1px;
+    top: 120px;
+    width: 30px;
+    height: 50px;
+}
+
+.filter_open :hover {
+    border-radius: 50px;
+    border-width: 0.1vw;
+    transform: translate(-7%, -7%);
+    background-color: rgb(254, 170, 91);
+    width: 33px;
+    height: 53px;
+}
+
+.filter-panel {
+    border-radius: 0 25px 25px 0;
+    position: absolute;
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    width: 200px;
+    height: 85vh;
+    background-color: #bf9c80;
+    box-shadow: 15px 0 40px rgba(0, 0, 0, 0.789);
+    transition: left 0.3s ease-in-out;
+    padding: 10px;
+    padding-right: 50px;
+    color: white;
+    z-index: 10;
+}
+
+.sidebar {
+    color: rgb(136, 150, 150);
+    background: white;
+    border: solid;
+    border-radius: 10px;
+    border-color: rgba(217, 217, 217, 0.695);
+    border-width: 0.01vw;
+    background-color: rgba(248, 166, 166, 0.399);
+    width: 400px;
+}
+
+.sidebar p {
+    padding: 1vh;
+}
+
+.card {
+    background: white;
+    color: rgb(25, 4, 58);
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(40, 4, 58);
+}
+
+.card img {
+    height: 28vh;
+}
+
+.btn.btn-primary {
+    background-color: rgba(110, 216, 255, 0.812);
+    border-color: rgb(188, 194, 192);
+    color: #3f3f3f;
+    letter-spacing: 1.5px;
+    transition: all 0.3s ease;
+}
+
+.btn.btn-primary:hover {
+    color: #303030;
+    background-color: rgb(110, 216, 255);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.card-body {
+    padding: 1vw;
+    background: rgba(248, 166, 166, 0.465)
+}
+
+.slide-text {
+    color: rgb(215, 214, 214);
+    margin: auto auto;
+}
+
+footer {
+    background: linear-gradient(270deg, rgb(165, 116, 78) 40%, rgba(165, 78, 78) 95%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: myAnim-call-anim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim-call-anim {
+
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+
+    .card img {
+        height: 70vh;
+    }
+
+    .sidebar {
+        width: 500px !important;
+    }
+}
+
+@media (max-width: 990px) {
+    .card img {
+        height: 60vh;
+    }
+
+    .sidebar {
+        width: 800px;
+    }
+
+    .nav-link:hover {
+        padding: 1vw;
+    }
+
+}
+
+.footer-text {
+    color: rgb(224, 224, 224);
+}
+
+.text-help {
+    color: rgb(40, 4, 58);
+}
